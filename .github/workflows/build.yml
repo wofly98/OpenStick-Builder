@@ -34,4 +34,6 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: openstick-debian
-          path: files/*
+          path: |
+            files/aboot.*
+            files/boot.*
